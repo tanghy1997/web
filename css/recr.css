@@ -1,0 +1,169 @@
+/*Header*/
+ #header .top {
+     background: #353736;
+}
+ .containers {
+     margin-top: 4.7rem!important;
+}
+ .logo {
+     padding-left: 1rem;
+}
+ .logo img.logo-img {
+     top: 2rem;
+}
+ .sf-menu{
+     padding-right: 0.9375rem;
+}
+ .mainmenu .sf-menu li#selector{
+     top: 4.375rem!important;
+}
+/*content-block*/
+ .block-body {
+     margin-top: 3.0625rem;
+     width: 100%;
+     height:50rem;
+     background: #fff;
+}
+ .row {
+     width: 75rem;
+     margin: 0 auto;
+    /*position: relative;
+     top:5rem;
+     */
+}
+/*收缩菜单*/
+ .closed {
+     float: right;
+     width: 0.875rem;
+     height: 0.875rem;
+     overflow: hidden;
+     background: url(../images/vicon.png) no-repeat;
+     display: inline-block;
+     margin-top: -0.3125rem;
+     margin-bottom: -0.3125rem;
+}
+ .v01 {
+     background-position: 0 0;
+}
+ .v02 {
+     background-position: 0 -1rem;
+     ;
+}
+ .vtitle {
+     width: 23.75rem;
+     height: 5rem;
+    /*background: #fbede0;
+     */
+     line-height: 5rem;
+     border-top: 0.0625rem solid #989898;
+     margin-top: -0.0625rem;
+     padding-left: 1.25rem;
+     font-size: 1.875rem;
+     color: #373737;
+     font-family: "\5FAE\8F6F\96C5\9ED1";
+     cursor: pointer;
+     font-weight: 600;
+}
+ .vtitle em {
+     margin: 2.1875rem 1.25rem 0 0;
+}
+ .vconlist{
+    min-height: 3.25rem;
+    padding-bottom: 1rem;
+}
+ .vconlist li a {
+     height: 1.875rem;
+     line-height: 1.875rem;
+     padding-left: 1.875rem;
+     display: block;
+     font-size: 1rem;
+     color: #252525;
+     font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+ .vconlist li.select a,.vconlist li a:hover {
+     text-decoration: none;
+}
+ .organ{
+     width: 24.955rem;
+     float: left;
+     padding-top: 5rem;
+     border-bottom: 0.0625rem solid #989898;
+}
+ .introduce{
+     width: 31.25rem;
+     height: 43.125rem;
+}
+ #substance{
+     width:40.5rem;
+     height: 35rem;
+     float: right;
+     overflow: hidden;
+     overflow-y: auto;
+     overflow-x: hidden;
+}
+ .details h1{
+     color: #989898 !important;
+     font-size: 1.875rem;
+     text-align: left !important;
+}
+ .details ul li{
+     font-size: 1.375rem;
+     margin-top: 1.5625rem;
+}
+ .details ul li div.salary{
+     display: inline-block;
+     width: 7.5rem;
+     height: 2.1875rem;
+     background:#8BB838;
+     float: right;
+     text-align: center;
+     line-height: 2.1875rem;
+     border-radius: 1.25rem;
+     font-size: 1.25rem;
+     color: #fff;
+     margin-top: -0.6875rem;
+}
+ .details ul li>p{
+     margin-top: 1.25rem;
+     font-size: 0.875rem;
+     line-height: 1.75rem;
+}
+ .details ul b{
+     font-size: 1.625rem;
+     line-height: 2.8125rem;
+     position: relative;
+     top: 1.25rem;
+     font-weight:normal;
+}
+ .details ul b a{
+     position: relative;
+     top: -1.25rem;
+     font-size: 1rem;
+}
+ .details .size{
+     font-size: 1.875rem;
+}
+ .tab_div{
+    padding-top: 4.5rem;
+     display: none;
+}
+ .tab_btn:hover{
+     color: #89B92A;
+}
+ .curr_btn{
+     color: #89B92A !important;
+}
+ .curr_div{
+     display: block !important;
+}
+ .tab_btn{
+     display: block;
+}
+/*footer*/
+ #footer .list {
+     margin: 5.5rem auto;
+}
+ #footer .list ul.navs {
+     left: 12.5rem;
+}
+ 

@@ -1,0 +1,243 @@
+/*Header*/
+::-webkit-scrollbar{display:none;}
+ #header .top {
+     background: #353736;
+}
+ .containers {
+     margin-top: 5.5rem;
+}
+ .logo {
+     padding-left: 0.9375rem;
+}
+ .logo img.logo-img {
+     top: 1.875rem;
+}
+ .sf-menu{
+     padding-right: 0.9375rem;
+}
+/*content-block*/
+ .block-body {
+     width: 100%;
+     min-height: 51.25rem;
+}
+ .row {
+     width: 75rem;
+     min-height: 51rem;
+     background: #fff;
+     margin: 0 auto;
+}
+ .buttons{
+     width: 100%;
+     height: 10rem;
+}
+ .buttons div{
+     width: 75rem;
+     height: 3.125rem;
+     margin: 0 auto;
+     padding-top: 6.875rem;
+}
+ .buttons div a{
+     display: block;
+     width: 4.375rem;
+     height: 1.875rem;
+     border: 1px solid #989898;
+     
+     text-align: center;
+     line-height: 1.875rem;
+    
+     color: #A0A0A0;
+     font-size: 0.9375rem;
+}
+ .buttons div a:hover{
+     background: #89B92A;
+     border: 1px solid #89B92A;
+     color: #fff;
+}
+/*收缩菜单*/
+ .closed {
+     float: right;
+     width: 0.875rem;
+     height: 0.875rem;
+     overflow: hidden;
+     background: url(../images/vicon.png) no-repeat;
+     display: inline-block;
+     margin-top: -0.3125rem;
+     margin-bottom: -0.3125rem;
+}
+ .v01 {
+     background-position: 0 0;
+}
+ .v02 {
+     background-position: 0 -1rem;
+     ;
+}
+ .vtitle {
+     width: 23.4375rem;
+     min-height: 5rem;
+    /*background: #fbede0;
+     */
+     font-weight: 600;
+     line-height: 5rem;
+     border-top: 0.0625rem solid #989898;
+     margin-top: -0.0625rem;
+     padding-left: 1.25rem;
+     font-size: 1.875rem;
+     color: #373737;
+     cursor: pointer;
+}
+ .vtitle em {
+     margin: 2.1875rem 1.25rem 0 0;
+}
+.vconlist li.select a span{
+    float: right;
+}
+.vconlist{
+     padding-bottom: 1.5625rem;
+}
+.vconlist li{
+    width: 394px;
+}
+.vconlist li a {
+    line-height: 1.5rem;
+    padding-left: 1.875rem;
+    display: block;
+    font-size: 0.875rem;
+    color: #252525;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    
+}
+ .vconlist li.select a,.vconlist li a:hover {
+     text-decoration: none;
+}
+.vtitles{
+    
+    }
+ .organ{
+     width: 394px;
+     float: left;
+     padding-top: 5rem;
+     border-bottom: 0.0625rem solid #989898; 
+}
+ #substance{
+     width:40.5rem;
+    height: 51rem;
+     overflow:hidden;
+     float: right;
+     overflow-y:auto;
+     overflow-x:hidden;
+     padding-right: 1.25rem;
+}
+ 
+.details {
+    margin-top: 4rem;
+    text-align: center;
+}
+ .details h1{
+     color: #989898 !important;
+     font-size: 1.875rem;
+     text-align: left !important;
+}
+ .details ul li{
+     font-size: 1.375rem;
+     margin-top: 1.5625rem;
+     text-align: left !important;
+}
+ .details ul li>p{
+     margin-top: 1.25rem;
+     font-size: 0.875rem;
+     line-height: 1.75rem;
+}
+ .details ul li>p>a>img{
+    width: 21.758rem;
+     
+     display: block;
+     margin: 0 auto;
+}
+ .details ul b{
+     font-size: 1.25rem;
+     line-height: 2.8125rem;
+     position: relative;
+     top: 1.25rem;
+     font-weight:normal;
+}
+ .details ul b a{
+     position: relative;
+     top: -1.25rem;
+     font-size: 1rem;
+}
+ .details .size{
+     text-align: center;
+      font-size: 1.7rem;
+      font-weight: 600;
+}
+
+ .details .size p{
+     font-size: 1.5rem;
+     font-weight:normal;
+     position: relative;
+     top:1.5rem;
+}
+ .tab_div{
+     display: none;
+}
+ .tab_btn:hover{
+     color: #89B92A;
+}
+ .curr_btn{
+     color: #89B92A !important;
+}
+ .curr_div{
+     display: block !important;
+}
+ .tab_btn{
+     display: block;
+}
+/*footer*/
+ #footer {
+     margin-top: 3.125rem;
+     background: #fff;
+}
+ #footer .list {
+     padding-top: 5.5rem;
+     margin: 0 auto;
+}
+ #footer .list ul.navs {
+     left: 12.5rem;
+}
+
+
+
+.magnify-modal {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .magnify-header .magnify-toolbar {
+    width: 40px;
+    background-color: rgba(0, 0, 0, .5);
+  }
+
+  .magnify-stage {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-width: 0;
+  }
+
+  .magnify-footer .magnify-toolbar {
+    display: inline-block;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .5);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .magnify-stage img {
+    width: 0;
+  }
+
+  .magnify-loading {
+    background-color: transparent;
+  }
+  .scrollDiv{ width:18px; position:absolute; top:0; background:#666; border-radius:10px;}
+ 

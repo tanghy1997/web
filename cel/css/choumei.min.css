@@ -1,0 +1,120 @@
+.Main-rongqi{
+	background: #fff;
+}
+
+.Main-button{
+	width:15rem;
+	height:3.5rem !important;
+	margin: 46px auto 28px;
+	text-align: center;
+	border: 1px solid #0B1321;
+	border-radius: 44px;
+	/* line-height: 3.5rem; */
+	font-size: 1.63rem;
+	color:#0B1321;
+	font-family: 'PingFangSC-Regular';
+	letter-spacing: 1px;
+}
+
+.Main-button a{
+	height: 100%;
+	line-height: 3.7rem;
+	color:rgba(11,19,33,1);
+	display: inline-block;
+	width: 100%;
+}
+
+.Main-button:hover{
+	background: #89B92A;
+    color: #fff;
+    border: 1px solid #F2F2F2;
+}
+.Main-button a:hover{
+	color: #fff;
+}
+
+.swiper-container {
+	width:100%;
+	-webkit-perspective:1200px;
+	-moz-perspective:1200px;
+	-ms-perspective:1200px;
+	perspective:1200px;
+    overflow: visible;
+}
+.swiper-wrapper {
+	/*margin-top:10px*/
+}
+.swiper-slide {
+	width:320px;
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+    overflow: visible;
+}
+
+
+.swiper-slide .main-img {
+	width:85%;
+	margin:0 auto;
+	display:block
+}
+
+.swiper-slide div{
+	width: 85%;
+	font-size: 13px;
+	margin: 0 auto;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0px 20px 60px rgba(207,207,207,1);
+}
+
+.swiper-slide div p{
+	padding: 1rem 1.2rem;
+	height: 4rem;
+	text-align: left;
+	line-height: 2rem;
+}
+
+.swiper-slide.slides{
+	width:200px !important;
+}
+.swiper-slide.slides .main-img{
+	width:80% !important;
+}
+
+.swiper-slide.slides div{
+	width: 60%;
+	margin: 0 auto 28px;
+}
+
+#pagination {
+	bottom:100px;
+    width: 130px;
+
+    margin: 12px auto 28px;
+}
+#pagination .swiper-pagination-bullet {
+	/*width:9.5%;*/
+	float:left;
+	margin:0 0 0 5px;
+	background:0;
+	opacity:1;
+	overflow: visible;
+}
+.swiper-pagination-bullet i {
+	background:rgba(152,152,152,1);
+	width:5px;
+	height:5px;
+	line-height:24px;
+	font-size:12px;
+    border-radius: 50%;
+	display:block;
+	font-style:normal;
+	text-align:center;
+	margin:0 auto;
+}
+.swiper-pagination-bullet-active i {
+	background:rgba(137,185,42,1);
+	background-size:auto 100%;
+}

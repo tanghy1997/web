@@ -1,0 +1,119 @@
+#header .top {
+     background: #353736;
+}
+ .containers {
+     margin-top: 5.5rem;
+}
+ .logo {
+     padding-left: 1rem;
+}
+ .logo img.logo-img {
+     top: 2rem;
+}
+ .sf-menu {
+     padding-right: 0.9375rem;
+}
+/*content-block*/
+ .block-body {
+     padding-top: 5.625rem;
+     padding-bottom: 5.625rem;
+     width: 100%;
+     height: 59.75rem;
+}
+ .row {
+     width: 75rem;
+    /*height: 23.125rem;
+     */
+     margin: 0 auto;
+     position: relative;
+     top: 6.375rem;
+}
+ .kuai{
+     width: 24.5rem;
+     height: 24.5rem;
+     background: #fff;
+     float: left;
+     margin-bottom: 12PX;
+     text-align: center;
+     font-size: 1.75rem;
+     overflow: hidden;
+}
+ .icons{
+     min-width: 16rem;
+     height: 10rem;
+     margin: 7.25rem  4.2rem;
+     position: absolute;
+     line-height: 3.125rem;
+     font-weight: 600;
+}
+ .kuai .icons img{
+     height: 96px;
+}
+ .icons p.unfinished{
+     line-height: 9.5rem;
+}
+ .left{
+     margin-left: 12PX;
+}
+ .mask{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 24.5rem;
+     background: rgba(0,0,0,.8);
+     transition: all 1s;
+}
+ .mainmenu .sf-menu li#selector{
+     top: 4.375rem!important;
+}
+ .mask .about{
+     width: 17rem;
+     margin: 0 auto;
+     font-size: 1rem;
+     color: #fff;
+     text-align: left;
+     position: relative;
+     
+}
+
+.mask .about>p{
+     line-height: 24px;
+}
+ .mask .about.duo{
+     top: 4.625rem !important;
+}
+ .mask .about.shao{
+     top: 10rem !important;
+}
+ .mask .about .xia{
+     width: 3.0625rem;
+     height: 0.5rem;
+     background: #8BB838;
+     position: relative;
+     top: 1rem;
+     float: right;
+}
+ .kuai:hover .mask{
+     left:0;
+}
+
+/*footer*/
+ #footer {
+     background: #fff;
+     /*padding-bottom: 6.25rem;*/
+}
+ #footer .list {
+     margin: 0 auto;
+     padding-top: 6.25rem;
+}
+ #footer .list img {
+     
+}
+ #footer .list ul.navs {
+     left: 12.5rem;
+    /*top: 6.25rem;
+     */
+}
+ #footer .list ul.navs {
+}

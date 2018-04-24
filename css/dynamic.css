@@ -1,0 +1,296 @@
+
+/*Header*/
+
+#header .top {
+	background: #353736;
+}
+
+.containers {
+	margin-top: 88px;
+}
+
+.logo {
+     padding-left: 1rem;
+}
+ .logo img.logo-img {
+     top: 2rem;
+}
+.sf-menu {
+     padding-right: 0.9375rem;
+}
+
+
+
+/*content-block*/
+.parHd .tempWrap{
+	/*height: 540px !important; */
+	width: 1200px !important;
+}
+
+.tempWrap ul{
+	padding: 0 0 6.66rem 0 !important;
+}
+.event_box {
+	width: 82rem;
+	margin: 0 auto ;
+	position: relative;
+	height: 36rem; 
+}
+.parHd  ul {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 17.8rem !important;
+	
+}
+.space_div{
+	width: 0;
+    height: 0;
+    border-top: 0.65rem solid transparent;
+    border-right: 1.12rem solid #000;
+    border-bottom: 0.65rem solid transparent;
+    float: left;
+    position: relative;
+    left: 3rem;
+    top: 21.29rem;
+    z-index: 999;
+}
+
+.parHd .tempWrap {
+	margin: 0 auto;
+}
+
+.parHd .tempWrap:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 21.9rem;
+	z-index: 10;
+}
+
+.parHd li.no_line:before {
+	display: none;
+}
+
+.parHd li {
+	width: 9.375rem;
+	/*background-color: red;*/
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 1.875rem;
+	font-size: 1rem;
+	color: #000;
+	margin: 0 0 0 15rem;
+	position: relative;
+	left: -16.31rem;
+}
+
+.sPrev,.sNext {
+	width: 1.875rem;
+	height: 1.875rem;
+	display: block;
+	position: absolute;
+	top: 0.625rem;
+	background:red;
+	border: 1px solid #ccc;
+}
+
+.sPrev {
+	left: 0;
+	background: url(../images/left.png) no-repeat center center;
+}
+
+.sPrev:hover{
+	border: 1px solid #8ABA2B;
+	cursor: pointer;
+	background: #8ABA2B;
+	background: url(../images/left-b.png) no-repeat center center;
+}
+
+.sNext {
+	right: 0;
+	background: url(../images/right.png) no-repeat center center;
+}
+
+.sNext:hover{
+	border: 1px solid #8ABA2B;
+	cursor: pointer;
+	background: #8ABA2B;
+	background: url(../images/right-b.png) no-repeat center center;
+}
+
+.sPrev,.sNext{
+	margin-top: 20.25rem;
+}
+.sPrev img,.sNext img {
+	transition: all .6s cubic-bezier(.51,1.1,.9,.95);
+	-moz-transition: all .6s cubic-bezier(.51,1.1,.9,.95);
+	-webkit-transition: all .6s cubic-bezier(.51,1.1,.9,.95);
+	-o-transition: all .6s cubic-bezier(.51,1.1,.9,.95);
+}
+
+.parHd li.act span {
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+	position: absolute;
+	top: 3.25rem;
+	left: 1.75rem;
+	z-index: 21;
+}
+.wai p{
+	position: relative;
+	top: 2.43rem !important;
+	left: 4.06rem  !important;
+	/*transform:rotate(-30deg);*/
+	font-size: 1.875rem;
+	font-weight: 600;
+}
+
+.parHd li span,.parHd li.clone span {
+	display: none;
+}	
+.space {
+	width: 16.6875rem;
+	padding: 1rem;
+	background: #0B1322;
+	z-index: 99;
+	text-align: center;
+	position: relative;
+    top:-3.75rem;
+	left: 5.875rem;
+	margin: 0 auto;
+	color: #fff;
+}
+
+/*.space:hover{
+	box-shadow: 5px 5px 43px #bbb;
+	
+}*/
+.space_san{
+	height: 0;
+    border-top: 0.875rem solid transparent;
+    border-right: 1.125rem solid #0B1322;
+    border-bottom: 1.125rem solid transparent;
+    float: left;
+    position: relative;
+    left: 5.625rem;
+    top: -4.53rem;
+    transform:rotate(45deg);
+    z-index: 99;
+}
+
+.bao{
+	position: relative;
+	top:1.5625rem;
+	font-size: 0.875rem;
+}
+.bao:hover{
+	transform: scale(1.1);
+	transition:all 0.4s ease-in 0s;
+}
+
+.duo{
+	margin-top: -1.375rem;
+	text-align: left !important;
+	
+}
+
+.circle{
+	width: 0.875rem;
+	height: 0.625rem;
+	background: #fff;
+	position: absolute;
+	top: 3.8125rem;
+	right: 3.125rem;
+	z-index: 99;
+}
+.xiao{
+	width: 0.625rem;
+	height: 0.625rem;
+	margin: 0 auto;
+	background: #000;
+	
+	border-radius: 50%;
+	
+}
+
+.wei{
+	position: relative;
+	left: 50px;
+}
+.wai{
+	width: 100%;
+	/*height: 1618px;*/
+	background: #fff;
+	margin-top: 3.125rem;
+	padding-bottom: 4.375rem;
+}
+
+.news,.newsa{
+	width: 75rem;
+	margin: 0 auto;
+}
+.lists li,.lista li {
+	line-height: 3.375rem;
+	border-bottom: 1px solid #C7C7C7;
+	text-align: left;
+	font-size: 1rem;
+	
+}
+.lists li a,.lista li a{
+	color: #000;
+}
+.lists li a:hover,.lista li a:hover{
+	color: #8ABA2B;
+}
+.lists span,.lista span{
+	float: right;
+	position: relative;
+	right: 1.5625rem;
+}
+
+.news ul.lists li.txt span:after,.newsa ul.lists li.txt span:after{
+	position: relative;
+	top: 0.125rem;
+	left: 1.25rem;
+	content: url(../images/fang.png);
+
+}
+.news h2,.newsa h2{
+	padding: 4.0625rem 0 1.75rem 0 ;
+	font-size: 1.6em;
+}
+.news .more,.newsa .more{
+	width: 11.125rem;
+	height: 3.125rem;
+	margin: 2.5rem auto;
+	line-height: 3.125rem;
+	background: #0B1321;
+	text-align: center;
+}
+.more:hover{
+	background: #8ABA2B;
+	transition:all 0.3s linear;
+}
+.news .more a,.newsa .more a{
+	color: #fff;
+	font-size: 1.125rem;
+}
+.news div.wan,.newsa div.wan{
+	width: 100%;
+	margin-top: 1.25rem;
+	font-size: 1.125rem;
+	text-align: center;
+}
+/*footer*/
+
+#footer .list {
+	margin: 5.5rem auto;
+}
+
+#footer .list ul.navs {
+	left: 12.5rem;
+}

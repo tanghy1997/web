@@ -1,0 +1,226 @@
+
+/*Header*/
+
+#header .top {
+	background: #353736;
+}
+
+.containers {
+	margin-top: 5.5rem;
+}
+
+.logo {
+	padding-left: 1rem;
+}
+
+.logo img.logo-img {
+	top: 2rem;
+}
+
+.sf-menu {
+	padding-right: 0.9375rem;
+}
+
+.bodys{
+	width: 100%;
+	height: 60rem;
+	margin-top: 5.625rem;
+}
+
+.bodys .slogan,.bodys .others{
+	width: 100%;
+	height: 30rem;
+	background: #fff;
+}
+
+.bodys .slogan {
+	
+	background: url(../images/index/xingkong.jpg) no-repeat center center;
+	background-size: 100%;
+	background-position : 0 0 ;
+	color: white;
+	letter-spacing: 10px;
+}
+.bodys .other{
+	font-size: 1.25rem;
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: 10rem;
+ 	line-height: 4.8125rem;
+}
+
+.bodys .slogan .meng{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+}
+.bodys .slogan .meng ul{
+	position: relative;
+	top: 7.5rem;
+ 	font-size: 1rem;
+ 	margin: 0 auto;
+ 	height: 11.5rem;
+ 	color: #fff;
+ 	line-height: 1.875rem;
+	text-align: center;
+	letter-spacing: 0.3rem;
+
+}
+.bodys .slogan .meng ul li.size{
+	font-size: 3.125rem;
+	color: rgba(255,255,255,.5);
+	line-height: 6.25rem;
+}
+
+.bodys .slogan .meng ul li.line{
+	line-height: 5.5rem;
+}
+
+.concept{
+	height: 32rem;
+
+}
+.concept h1,.other h1{
+	color: #989898;
+	font-size: 3.125rem;
+}
+.txt{
+	position: relative;
+	top: 10.3125rem;
+}
+.txt p{
+	margin: 3.4375rem auto;
+ 	text-align: center;
+	font-size: 1.25rem;
+	color: #000;
+}
+.we{
+	height: 51.25rem;
+	background: #fff;
+}
+
+.we .member{
+	position: relative;
+	top: 3.5rem;
+}
+
+.carousel{
+	width: 85.625rem;
+	margin: 6.25rem auto;
+}
+.bao{
+	width: 75rem;
+ 	height: 37.5rem;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.carousel .m_unit{
+	width: 312.5rem;
+ 	height: 18.75rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.carousel ul{
+	list-style: none;
+}
+.carousel ul .zhenti{
+	float: left;
+	width: 75rem;
+ 	height: 37.5rem;
+}
+.carousel .m_unit ul li img{
+	width: 13.5rem;
+ 	height: 17.8125rem;
+	position:relative; 
+}
+
+.carousel .m_unit ul li .zhao{
+ 	width: 13.5rem;
+ 	height: 17.8125rem;
+	position:relative;
+	float:left; 
+	overflow: hidden;
+}
+
+.carousel .m_unit ul li .zhao .pian{
+ 	width: 13.5rem;
+ 	height: 17.8125rem;
+	position: relative;
+	top: -18.0625rem;
+	left: 15.4rem;
+	background: rgba(0,0,0,.5);
+	text-align: center;
+	transition: all .5s;
+
+}
+.carousel .m_unit ul li .zhao:hover .pian{
+	left: 0;
+}
+.carousel .m_unit ul li .zhao .pian p{
+	position: relative;
+	top: 7rem;
+	/*z-index: 999;*/
+	color: #fff;
+}
+.carousel .m_unit ul li .zhao .pian p.tiao{
+	width: 1.625rem;
+ 	height: 0.25rem;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	margin: 0.5rem auto; 
+ 	/*top: 5.625rem;*/
+	background: #8AB92B;
+}
+.carousel .m_unit ul li .left{
+	margin-right: 1.875rem;
+}
+.carousel .m_unit ul li .bottom{
+	margin-bottom: 1.875rem;
+}
+
+.btns a{
+	position: absolute;
+	width: 3rem;
+ 	height: 3rem;
+ 	margin-top: 17.2rem;
+ 	font-size: 1.875rem;
+ 	line-height: 2.5rem;	
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	border: 1px solid #989898;
+
+}
+.leftBtn{
+	left: 0px;
+	background: url(../images/left.png) no-repeat center center;
+	background-size:3rem 3rem;
+}
+.leftBtn:hover{
+	border: 1px solid #8ABA2B;
+	background: url(../images/left-b.png) no-repeat center center;
+	background-size:3rem 3rem;
+}
+.rightBtn{
+	right: 0px;
+	background: url(../images/right.png) no-repeat center center;
+	background-size:3rem 3rem;
+}
+
+.rightBtn:hover{
+	border: 1px solid #8ABA2B;
+	background: url(../images/right-b.png) no-repeat center center;
+	background-size:3rem 3rem;
+}
+/*footer*/
+
+#footer .list {
+	margin: 5.5rem auto;
+}
+
+#footer .list ul.navs {
+	left: 12.5rem;
+}

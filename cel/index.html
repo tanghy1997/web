@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>笃北科技</title>
+	<link rel="shortcut icon" href="../images/ck.png">
+	<link rel="stylesheet" href="css/style.css" media="screen"/>
+	<link rel="stylesheet" href="css/index.css" media="screen"/>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/choumei.min.css">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">
+
+	<script>
+		var browser = {
+		versions: function () {
+			var u = navigator.userAgent, app = navigator.appVersion;
+			return { //移动终端浏览器版本信息 
+				ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端 
+				android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器 
+				iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器 
+				iPad: u.indexOf('iPad') > -1, //是否iPad 
+				};
+			}(),
+		};
+
+	</script>
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">
+</head>
+<body>
+	<div id="container">
+		<div id="navi" class="global">
+			<p><a href="javascript:void(0)">首页</a></p>
+			<img src="images/logo.png" alt="" class="logo-img">
+			<img src="images/menu.png" alt="" class="menu-img" id="menu" onClick="change_pic()">
+		</div>
+
+		<div class="menu-nav">
+			<ul>
+				<li class="layer"><a href="index.html">首页</a></li>
+				<li><a href="page/news.html">动态</a></li>
+				<li><a href="page/team.html">团队</a></li>
+				<li><a href="page/trade.html">业务</a></li>
+				<li><a href="page/coop.html">合作</a></li>
+				<li><a href="page/join.html">加入</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="header" class="global header">
+		<div class="mengban">
+			<p class="pt">青春无畏&nbsp;&nbsp;冲动不止</p>
+		</div>
+	</div>
+	<div class="Main-txt">新闻动态</div>
+	<div class="Main-rongqi">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="../images/index/lun/1.jpg" class="main-img"><div><p>移动互联网创新实验室成立</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/2.jpg" class="main-img"><div><p>高校社区服务产品项目立项目</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/3.jpg" class="main-img"><div><p>产品UGC突破30万</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/4.jpg" class="main-img"><div><p>国家级创业赛屡获殊荣</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/5.jpg" class="main-img"><div><p style="text-align: left;">完成种子轮百万级融资，被合肥市市长亲切鼓励</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/6.jpg" class="main-img"><div><p>笃北科技公司正式成立</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/7.jpg" class="main-img"><div><p style="text-align: left;">星火校圈-中国高校分布式移动社区服务平台正式成立</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/8.jpg" class="main-img"><div><p>校园社区服务应用在多所高校落地上线</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/9.jpg" class="main-img"><div><p style="text-align: left;">完成天使轮千万级融资，成立星火基金，助力高校创新创业</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/10.jpg" class="main-img"><div><p>举办安徽省首届高校新媒体发展论坛</p></div></div>
+		        <div class="swiper-slide"><img src="../images/index/lun/11.jpg" class="main-img"><div><p>开展就业教育业务板块，吸引海量学生参加</p></div></div>
+				<div class="swiper-slide"><img src="../images/index/lun/12.jpg" class="main-img"><div><p>省委书记李锦斌参观公司并体验指导产品</p></div></div>
+				<div class="swiper-slide"><img src="../images/index/lun/13.jpg" class="main-img"><div><p>服务产品——合肥市驾培联盟产品启动</p></div></div>
+		    </div>
+		</div>
+		<div class="swiper-pagination" id="pagination"></div>
+		<div class="Main-button"><a href="page/news.html">查看更多</a></div>
+	</div>
+	
+	<!-- 底部导航 -->
+	<div id="footer" class="global">
+		<div class="subNavBox">
+			<div class="subNav">动态</div>
+            <div class="navContent">
+            	<ul>
+	                <li><a href='page/news.html'>公司历程</a></li>
+	                <li><a href='page/news.html#index_2'>笃北新闻</a></li>
+	                <li><a href='page/news.html#index_3'>行业动态</a></li>
+            	</ul>
+	        </div>
+	        <div class="xiahuaxian"></div>
+
+        	<div class="subNav">团队</div>
+            <div class="navContent">
+            	<ul>
+	                <li><a href='page/team.html'>使命及愿景</a></li>
+	                <li><a href='page/team.html#index_2'>价值观</a></li>
+	                <li><a href='page/team.html#index_3'>成员</a></li>
+            	</ul>
+	        </div>
+	        <div class="xiahuaxian"></div>
+
+        	<div class="subNav">业务</div>
+        	<div class="navContent">
+	            <ul>
+	                <li><a href='page/trade.html#index_1'>星火校圈</a></li>
+	                <li><a href='page/trade.html#index_2'>星火基金</a></li>
+	                <li><a href='page/trade.html#index_3'>荔枝空间</a></li>
+	                <li><a href='page/trade.html#index_4'>驾培联盟营运平台</a></li>
+	                <li><a href='page/trade.html#index_5'>互联网技术研发支持</a></li>
+	                <li><a href='page/trade.html#index_6'>互联网产品项目咨询</a></li>
+	            </ul>
+	        </div>
+	        <div class="xiahuaxian"></div>
+
+        	<div class="subNav">合作</div>
+        	<div class="navContent">
+	            <ul>
+	             	<li><a href='page/coop.html'>商务合作</a></li>
+	                <li><a href='page/coop.html'>高校合作</a></li>
+	                <li><a href='page/coop.html#index_3'>合作内容</a></li>
+	                <li><a href='page/coop.html#index_2'>联系方式</a></li>
+	            </ul>
+	        </div>
+	        <div class="xiahuaxian"></div>
+
+        	<div class="subNav">加入</div>
+        	<div class="navContent">
+	            <ul>
+	                <li><a href="page/join.html">招聘信息</a></li>
+	            </ul>
+	        </div>
+	        <div class="xiahuaxian"></div>
+
+        </div>
+	</div>
+	<div id="footer-txt">皖ICP备15020263号-1</div>
+	<script src="../js/jquery-2.1.3.min.js"></script>
+	<script src="js/slider.js" type="text/javascript"></script>
+	<script src="../js/lanren.min.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/choumei.min.js"></script>
+</body>
+</html>

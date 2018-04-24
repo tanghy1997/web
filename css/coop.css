@@ -1,0 +1,146 @@
+/*Header*/
+ #header .top {
+     background: #353736;
+}
+ .mainmenu .sf-menu li#selector{
+     top: 4.375rem !important;
+}
+.containers {
+     margin-top: 5.5rem;
+}
+.logo {
+     padding-left: 1rem;
+}
+ .logo img.logo-img {
+     top: 2rem;
+}
+.sf-menu {
+     padding-right: 0.9375rem;
+}
+/*content-block*/
+ .block-body {
+     margin-top: 5.625rem;
+     width: 100%;
+     height: 146.5625rem;
+}
+ .row {
+     width: 75rem;
+     height: 105.625rem;
+     margin: 0 auto;
+     position: relative;
+     top: 5.625rem;
+}
+ .waterfall{
+     width: 100%;
+     height: 25rem;
+     background: #fff;
+     float: left;
+    /*margin-bottom: 28PX;
+     */
+}
+ .bai,.hei{
+     width: 50%;
+     height: 100%;
+     float: left;
+}
+ .hei .slogan{
+     width: 31.25rem;
+     height: 100%;
+     margin: 0 auto;
+     text-align: left;
+}
+ .hei .slogan.dan ul.txt{
+     position: relative;
+     top: 4.375rem;
+}
+ .hei .slogan ul.txt h2{
+     text-align: left;
+}
+ .hei .slogan ul.txt h2.right{
+     text-align: right;
+}
+ .hei .slogan ul{
+     position: relative;
+     top:6.25rem;
+}
+ .waterfall ul.txt li.nvs{
+     position: relative;
+     left: 28.75rem !important;
+}
+/*.waterfall ul.txt li.nv{
+     position: relative;
+     left: 1.875rem;
+}
+ */
+/*.waterfall ul.txt li.bt{
+     text-align: center;
+     font-size: 1.25rem;
+     s 
+}
+ */
+ .waterfall ul.txt li{
+     line-height: 2rem;
+     font-size: 0.875rem;
+}
+ .bai{
+    /*background-color: #000;
+     */
+     overflow: hidden;
+}
+ .bai img{
+     z-index: 99;
+}
+ .bai img:hover{
+     -webkit-transform: scale(1.05);
+     transition:all 0.3s linear;
+}
+ .location{
+     width: 100%;
+     height: 31.25rem;
+     margin: 0 auto;
+     background: #fff;
+}
+ .tu{
+     width: 75rem;
+     height: 31.25rem;
+     margin: 5.625rem auto;
+}
+ #container{
+     float: left;
+     margin-top: 3.5625rem;
+     width: 34.0625rem;
+     height: 24.125rem;
+}
+ .info{
+     float: right;
+     width: 23.75rem;
+     height: 17.25rem;
+     margin-top: 7rem;
+     line-height: 2.1875rem;
+     text-align: left !important;
+    /*color: #252525 !important;
+     */
+}
+ .info h2{
+     text-align: left !important;
+}
+ .nv{
+     width: 2.375rem;
+     height: 0.25rem;
+     margin-top: 1.5625rem;
+     margin-bottom: 1.25rem;
+     background: #8AB92B;
+}
+ .info ul li{
+     font-size: 1.25rem;
+}
+/*footer*/
+ #footer .list {
+     margin: 0 auto;
+}
+ #footer .list ul.navs {
+     left: 12.5rem;
+    /*top: 6.25rem;
+     */
+}
+ 
